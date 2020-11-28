@@ -1,0 +1,137 @@
+
+/* variables */
+:root{
+    --primary:  #7E0633;
+    --secondary: #FCDCC5;
+    --tertiery: #E60505;
+
+}
+/* base */
+*{
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    color: var(--secondary);
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 11px 72px auto;
+}
+
+.site-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.site-nav .logo-img{
+    width: auto;
+}
+
+.site-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.site-nav ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    color: var(--secondary);
+    padding: 32px 24px;
+    font-weight: bold;
+}
+
+.site-nav ul li a{
+    text-decoration: none;
+}
+
+.site-nav ul li a:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.site-nav ul li a:active{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.cta{
+    background-color: var(--tertiery);
+}
+
+.cta a{
+    background-color: var(--tertiery);
+}
+
+.site-nav .three-bars{
+    display: none;
+}
+
+#welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.welcome-text{
+    width: 800px;
+}
+
+.welcome-text h1{
+    font-size: 60px;
+    color: var(--secondary);
+    margin: auto;
+}
+
+.leading{
+    font-size: 18px;
+    color: var(--secondary);
+    margin: 30px auto
+}
+
+.button {
+    border: 2px solid var(--secondary);
+    border-radius: 15px;
+
+}
+
+.welcome-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px;
+}
+
+.welcome-text a:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.welcome-text a:active{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.welcome-img{
+    width: 500px;
+} 
+
+.socmed-logo{
+    position: absolute;
+    margin-top: -20px;
+    right: 72px;
+}
+
+.socmed-logo a{
+    padding: 12px;
+}
